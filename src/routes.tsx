@@ -1,4 +1,5 @@
 import MainLayout from "./components/MainLayout";
+import AddItem from "./pages/AddItem";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 
@@ -14,6 +15,10 @@ const routes = [
       {
         path: 'dashboard',
         element: <Dashboard />
+      },
+      {
+        path: 'add',
+        element: <AddItem />
       },
     ]
   },

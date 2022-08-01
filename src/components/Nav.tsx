@@ -4,7 +4,6 @@ import { toggleAuth } from "../store/atuh";
 
 function Nav() {
   const { userName } = useAppSelector((state) => state.auth);
-  console.log(userName)
   const dispatch = useDispatch();
 
   const logout = () => {
